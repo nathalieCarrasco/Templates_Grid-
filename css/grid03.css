@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.componente{
+border: 2px solid #000;
+background-color: rgb(235, 247, 70);
+}
+#container-main{  
+    
+      height: 97vh;
+    width: 98%;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "article  article nav aside"
+    "footer footer  footer footer";
+
+    grid-template-rows: 0.5fr 2.5fr 0.5fr;
+    grid-template-columns: 1.5fr 1.5fr 0.7fr 0.5fr;
+    gap: 5px;
+}
+
+
+
+header{
+    
+    grid-area: header;
+    
+
+}
+
+nav{
+    grid-area: nav;
+    
+}
+
+article{
+    grid-area: article;
+
+}
+
+aside{
+    grid-area: aside;
+
+}
+
+footer{
+    grid-area: footer;
+
+}
