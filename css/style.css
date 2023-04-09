@@ -30,6 +30,9 @@
     height: 200px;
     border: 1px solid #000;
     text-align: center;
+    background-color: black;
+    color: #fff;
+
 }
 .container-header{
    width: 100%;
@@ -40,6 +43,17 @@
    color: #fff;
    padding: 0;
    margin: 0;
+}
+
+
+.tarjeta a{
+    color: #fff !important;
+
+
+}
+
+.tarjeta a:hover{
+    color: #b108ffcc !important;
 }
 
 .container-header h1{
